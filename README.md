@@ -4,8 +4,8 @@ from typing import Optional, List
 
 @dataclass
 class Person:
-    first_name: str = Wayne
-    last_name: str = Cole
+    first_name: str = "Wayne"
+    last_name: str = "Cole"
     age: int = 22
     email: Optional[str] = "waynecole339@gmail.com"
     website: Optional[str] = "https://waynecole.info"
