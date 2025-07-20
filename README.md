@@ -17,7 +17,7 @@ class Person:
     
     @property
     def age(self) -> int:
-        return f"{self.age}"
+        return self.age
 
 # Usage example:
 person = Person(
