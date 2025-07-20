@@ -9,7 +9,7 @@ class Person:
     age: int = 22
     email: Optional[str] = "waynecole339@gmail.com"
     website: Optional[str] = "https://waynecole.info"
-    languages: List[str] = ["C", "C++", "Go", "Typescript", "Python"]
+    languages: List[str] = ["C", "C++", "Go", "Typescript", "Python", "Lua", "Bash"]
     
     @property
     def full_name(self) -> str:
