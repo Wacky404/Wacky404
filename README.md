@@ -22,11 +22,11 @@ class Person:
 # Usage example:
 person = Person(
     first_name="Wacky",
-    last_name="Scales", 
+    last_name="404", 
     age=22,
-    email="fitguy@productive.com"
+    email="wcole@btytechnology.com"
 )
 
-print(person.full_name)  # Wacky Scales
+print(person.full_name)  # Wacky 404
 print(person.age)        # 22
 ```
